@@ -1,0 +1,186 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(56, 63, 65, 0.9);
+  position :fixed;
+  top: 20px;
+  z-index: 10;
+	display: inline;
+	padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+	margin: 0 auto;
+}
+.header-left {
+	float: left;
+}
+
+.header-left h1{
+	margin: 0 auto;
+	padding: 0 20px;
+	color: #fff;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-right {
+	margin: 0 auto;
+}
+
+.header-right ul{
+	padding: 10px 0;
+}
+
+header li {
+	float: left;
+	margin: 0 auto;
+	padding: 0 10px;
+	color: #ffffffe8;
+	font-family: monospace;
+}
+
+.bagian-atas {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bagian-atas h1 {
+	font-weight: bold;
+	font-size: 120px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 100px;
+	margin-bottom: 10px;
+}
+
+.bagian-atas h1 span{
+	color: rgba(255, 255, 0, 0.911);
+	font-family: monospace;
+}
+
+.bagian-atas h2 {
+	font-weight: normal;
+	margin-bottom: 10px;
+	font-size: 50px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.bagian-atas img {
+	width: 250px;
+}
+.bagian-tentang-saya {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(128, 128, 128, 0.349);
+	margin: 0 auto;
+	padding: 50px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 24px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.bagian-proyek {
+	text-align: center;
+}
+
+.bagian-proyek {
+	width: 100%;
+	padding: 0;
+}
+
+.bagian-proyek .list-gambar {
+	width: 100%;
+	padding: 0;
+}
+
+.bagian-proyek .list-gambar .item{
+	width: 30%;
+	float: left;
+	padding: 0 20px;
+}
+
+.bagian-proyek .list-gambar .item img{
+	width: 200px;
+}
+
+.bagian-kontak {
+	margin-top: 300px;
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(128, 128, 128, 0.349);
+}
+
+.form input,textarea {
+	margin: 20px;
+	width: 600px;
+}
+
+.form input {
+	height: 40px;
+}
+
+.btn {
+	border: 1px solid #d8db07;
+	padding: 10px 150px;
+	background-color: #d8db07;
+	color: rgba(0, 0, 0, 0.877);
+}
+
+.form input,textarea {
+	border: 0 solid #fff;
+}
+
+.form input,textarea, .btn {
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+	background-color: rgb(88, 88, 88);
+	width: 100%;
+	float: left;
+	color: #fff;
+}
+.foot-left {
+	float: left;
+}
+
+footer .foot-left h1 {
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+.foot-right {
+	float: right;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.foot-right ul{
+	/* margin: 0 auto; */
+	padding: 0;
+	color: #dddcdc;
+}
